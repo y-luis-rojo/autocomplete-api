@@ -37,7 +37,7 @@ flask run
 The application exposes a REST api at `/` which allows
 a `GET` request with an optional query param `prefix` to
  search name starting with specified prefix. If query
- param is not present, it will response with all app names.
+ param is not present, it will response with all app names. Response will be in JSON format.
  
 Examples:
 
